@@ -336,6 +336,7 @@ section .bar{margin: 0 auto 50px;width: 50px;border-top: 18px solid #de6f44;bord
 }
 
 @media (max-width: 640px) {
+    #about .ab .photo-wrap img {width:60%;}
     #about .inner {display: none;}
     #home .home-bg .typing {margin: 30px 0 20px;font-size: 1.8em;}
     #home .home-bg .sub-txt{font-size: 1em;}
@@ -355,6 +356,7 @@ section .bar{margin: 0 auto 50px;width: 50px;border-top: 18px solid #de6f44;bord
 }
 
 @media (max-width: 480px) {
+    #about .ab .photo-wrap img {width:60%;}
     #about .inner {display: none;}
     #portfolio .pf-wrap .grid .grid-item .item .caption .tit{font-size: 1.4em;}
     #portfolio .pf-wrap .grid .grid-item .item .caption .sub-tit{font-size: 1em;}
