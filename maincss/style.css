@@ -279,6 +279,7 @@ section .bar{margin: 0 auto 50px;width: 50px;border-top: 18px solid #de6f44;bord
 
 /* media query*/
 @media (max-width: 1024px) {
+    #about .ab .photo-wrap img {width:77%; margin:10px 12%;}
     #about .ab .photo-wrap{width: 40%;}
     #about .ab .profile-wrap{width: 60%;}
 /*    #about .ab .history{width: 60%;}*/
@@ -290,6 +291,7 @@ section .bar{margin: 0 auto 50px;width: 50px;border-top: 18px solid #de6f44;bord
 }
 
 @media (max-width: 768px) {
+    #about .ab .photo-wrap img {width:57%; margin:10px 12%;}
     #header .nav{padding-left: 30px;font-size: 1em;border-bottom: 1px solid #e2e8e8;}
     #header .nav ul {display: none;background-color: #fff;margin-left: -30px;background-color: rgba(0,0,0,0.6); backdrop-filter: saturate(180%) blur(20px);}
     #header .nav ul li {width: 100%;line-height: 50px;}
