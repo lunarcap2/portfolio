@@ -279,6 +279,7 @@ section .bar{margin: 0 auto 50px;width: 50px;border-top: 18px solid #de6f44;bord
 
 /* media query*/
 @media (max-width: 1024px) {
+    body{overflow-x: hidden;}
     #about .ab .photo-wrap img {width:77%; margin:10px 12%;}
     #about .ab .photo-wrap{width: 40%;}
     #about .ab .profile-wrap{width: 60%;}
@@ -334,6 +335,7 @@ section .bar{margin: 0 auto 50px;width: 50px;border-top: 18px solid #de6f44;bord
 }
 
 @media (min-width: 769px) {
+    body{overflow-x: hidden;}
     #header .nav ul {display: block !important;}
 }
 
