@@ -27,7 +27,7 @@ a:visited {color: #dee8ea;}
 */
 .dark{width:100%;/*height:600px;*/background:rgba(0,0,0,0.5);position: absolute;top: 0;right: 0;bottom: 0;left: 0;z-index: 0;}
 
-#wrap{height: 100%;}
+#wrap{height: 100%; width: 100%;}
 /* header -------------------------------------- */
 #header{position: relative;}
 #header .nav {position: fixed;top: 0;left: 0;padding-left: 60px;width: 100%;height: 60px;box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);background-color: #fff;/*font-family: 'Poiret One', cursive;*/font-size: 1.1em;z-index: 900;}
@@ -279,7 +279,18 @@ section .bar{margin: 0 auto 50px;width: 50px;border-top: 18px solid #de6f44;bord
 
 /* media query*/
 @media (max-width: 1024px) {
-    #about{width:100%; overflow-x: hidden;}
+    .main-bg.obj3 {
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    background: url(../images/main-bg-s.svg) no-repeat 0 0;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(0px, 440px);
+    animation: main-bg-move03 10s linear 0s infinite alternate;
+}
     #about .ab .photo-wrap img {width:77%; margin:10px 12%;}
     #about .ab .photo-wrap{width: 40%;}
     #about .ab .profile-wrap{width: 60%;}
