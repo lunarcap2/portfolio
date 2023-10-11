@@ -202,7 +202,7 @@ section .bar{margin: 0 auto 50px;width: 50px;border-top: 18px solid #de6f44;bord
 #home .home-bg .sub-txt{margin: 2px 0;font-size: 1.1em;}
 
 /* about -------------------------------------- */
-#about{ position: relative; }
+#about{ position: relative; overflow: hidden; }
 #about .ab{width: 100%; }
 #about h3:before{content: '';display: block;position: absolute;top: 10px;left: 0;width: 20px;height: 10px;background: #83c8f3;transform: rotate(-45deg);border-radius: 10px;}
 #about h3{position: relative;margin-bottom: 10px;padding-left:25px;font-size: 1.3em;font-weight: bold;}
