@@ -71,23 +71,30 @@ jQuery(function($){
     $(document).ready( function(){
         $('.horizon').horizon();
     });
-    
+
+
     // skill chart
     $(window).on('scroll', function(){
+        var containerTop = $('#wrap').offset().top+0;
+        var skillSetion = $('#skills').offset().top;
+        var top = $(window).scrollTop();
+        var win_h = $(window).height();
 
-    var top = $(window).scrollTop();
-    var win_h = $(window).height();
-
-    $('.chart').easyPieChart({
-            barColor:"#2c94d4",
-            scaleColor:false,
-            lineCap: "square",
-            lineWidth:10,
-            size:100,
-            onStep: function(from, to, percent) {
-                $(this.el).find('.percent').text(Math.round(percent));
-            }
-         })
+        if( $(window).scrollTop() >= skillSetion-400 ){ 
+            $('#skills .skills-chart ul li').fadeIn();
+            $('.chart').easyPieChart({
+                barColor:"#2c94d4",
+                scaleColor:false,
+                lineCap: "square",
+                lineWidth:10,
+                size:100,
+                offset:500,
+                onStep: function(from, to, percent) {
+                    $(this.el).find('.percent').text(Math.round(percent));
+                }
+            })
+           } 
+ 
     });
     
     // portfolio isotope filter

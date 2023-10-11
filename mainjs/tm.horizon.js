@@ -310,7 +310,7 @@
 		'swing':'cubic-bezier(0.42, 0, 0.58, 1)',
 		'easeOutCubic':'cubic-bezier(.215,.61,.355,1)',
 		'easeInOutCubic':'cubic-bezier(.645,.045,.355,1)',
-		'easeInCirc':'cubic-bezier(.6,.04,.98,.335)',
+		'easeInCirc':'cubic-bezier(a.6,.04,.98,.335)',
 		'easeOutCirc':'cubic-bezier(.075,.82,.165,1)',
 		'easeInOutCirc':'cubic-bezier(.785,.135,.15,.86)',
 		'easeInExpo':'cubic-bezier(.95,.05,.795,.035)',
