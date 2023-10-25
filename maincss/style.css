@@ -408,6 +408,7 @@ section .bar{margin: 0 auto 50px;width: 50px;border-top: 18px solid #de6f44;bord
 }
 
 @media (max-width: 480px) {
+    #home .home-bg .inner_txt { padding: 0em;}
     #home .home-bg .typing::after{vertical-align:top;content:"";display: inline-block; position: relative; top: 7px; margin-left:8px;width:2px;height:6vw;animation-name: cursor;animation-duration: 0.4s;animation-iteration-count: infinite;}
     #about .ab .photo-wrap img {width:60%;}
     /* #about .inner {display: none;} */
@@ -417,7 +418,7 @@ section .bar{margin: 0 auto 50px;width: 50px;border-top: 18px solid #de6f44;bord
 
 
 /* 패럴렉스 */
-.container {
+#container {
 	/* iPhone 가로 스크롤 방지 */
 	overflow-x: hidden;
 }
