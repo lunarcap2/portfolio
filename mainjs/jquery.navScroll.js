@@ -129,7 +129,7 @@
       for (i = 0; l > i; i++) {
         var item = scrollItems[i];
         if (item !== undefined) {
-          if (scrollPos > (item.offset().top - changeBounds)) {
+          if (scrollPos > (item.offset().top+350 - changeBounds)) {
             if (options.activeParent) {
               navItem.parent().removeClass(options.activeClassName);
               $(navItem[i]).parent().addClass(options.activeClassName);
@@ -138,6 +138,17 @@
               $(navItem[i]).addClass(options.activeClassName);
             }
           }
+
+          if (scrollPos > (scrollItems[4].offset().top - changeBounds)) {
+            if (options.activeParent) {
+              navItem.parent().removeClass(options.activeClassName);
+              $(navItem[i]).parent().addClass(options.activeClassName);
+            } else {
+              navItem.removeClass(options.activeClassName);
+              $(navItem[i]).addClass(options.activeClassName);
+            }
+          }
+
         }
       }
     }

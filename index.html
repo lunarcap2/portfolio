@@ -16,7 +16,12 @@
     
 </head>
 
-<body>
+<body class="before-load">
+    <div class="loading">
+		<svg class="loading-circle">
+			<circle cx="50%" cy="50%" r="25"></circle>
+		</svg>
+	</div>
     <!-- wrap -->
     <div id="wrap">
         <!-- header -->
@@ -36,15 +41,31 @@
             </nav>
         </header>
         <!-- //header -->
-        <!-- home -->
-        <section id="home">
-            <div class="home-bg">
-                <p class="typing-txt">안녕하세요 :) 웹퍼블리셔 박정완 입니다.</p>
-                <p class="typing"></p>
-                <p class="sub-txt">기술 트렌드와 디자인에 대한 지속적인 관심과</p>
-                <p class="sub-txt">효율적인 시멘틱 웹페이지 구축을 위하여 고민하고 노력합니다.</p>                             
-            </div>
-        </section>
+        <!-- home -->      
+        <section class="scroll-section" id="scroll-section-0" >
+			<section id="home">
+                <div class="home-bg">
+                    <p class="typing-txt">안녕하세요 :) 웹퍼블리셔 박정완 입니다.</p>
+                    <div class="inner_txt">
+                        <p class="typing"></p>
+                        <p class="sub-txt">기술 트렌드와 디자인에 대한 지속적인 관심과</p>
+                        <p class="sub-txt">효율적인 시멘틱 웹페이지 구축을 위하여 고민하고 노력합니다.</p>   
+                    </div>                      
+                </div>
+            </section>
+			<object class="sticky-elem pencil-logo" data="images/main_logo.svg" type="image/svg+xml"></object>
+			<div class="sticky-elem main-message a">
+			</div>
+			<span class="sticky-elem ribbon-path">
+				<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 450">
+					<path class="st1" d="M709,41.5c-194,38-387,122-455,159c-64.13,34.89-73.4,42.42,20,26c82.5-14.5,126.34-33.68,185-38 c47.5-3.5,69.22,7.98-11,39c-75,29-251,98-459,169"></path>
+				</svg>
+			</span>
+			<div class="sticky-elem main-message b">
+				<p>ABOUT ME</p>
+			</div>
+			<img class="sticky-elem pencil" src="images/a_pencil.png">
+		</section>
         <!-- //home -->
         <!-- about -->
         <section id="about">
@@ -85,6 +106,7 @@
             </div>
         </section>
         <!-- //about -->
+       
         <!-- skills -->
         <section id="skills" class="section-skills">
             <h2>Skills</h2>
@@ -396,7 +418,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -437,7 +459,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -477,7 +499,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -517,7 +539,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -557,7 +579,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -597,7 +619,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -638,7 +660,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -682,7 +704,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -725,7 +747,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -774,7 +796,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -815,7 +837,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -856,7 +878,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -898,7 +920,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -940,7 +962,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -982,7 +1004,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -1030,7 +1052,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -1074,7 +1096,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -1118,7 +1140,7 @@
                     <!--<div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -1166,7 +1188,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -1210,7 +1232,7 @@
                     <!--<div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -1249,7 +1271,7 @@
                     <!--<div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -1291,7 +1313,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -1337,7 +1359,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -1381,7 +1403,7 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
@@ -1424,12 +1446,12 @@
                     <div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
                                 <p class="pop-tit">DESIGN PORTFOLIO</p>
-                                <a href="images/portfolio_wide_211214.pdf" class="pop-url" target="_blank">PDF 파일 바로가기 &gt;</a><br>
+                                <a href="images/portfolio_wide_231025.pdf" class="pop-url" target="_blank">PDF 파일 바로가기 &gt;</a><br>
 
                                 <table class="pop-table">
                                     <colgroup>
@@ -1439,7 +1461,7 @@
                                     <tbody>
                                         <tr>
                                             <th>PDF</th>
-                                            <td><a href="images/portfolio_wide_211214.pdf" target="_blank"><img src="images/pdf.png" class="pdf"></a></td>
+                                            <td><a href="images/portfolio_wide_231025.pdf" target="_blank"><img src="images/pdf.png" class="pdf"></a></td>
                                         </tr>
                                         <tr>
                                             <th>참여도</th>
@@ -1465,7 +1487,7 @@
                     <!--<div class="pop">
                         <div class="pop-detail">
                             <div class="pop-detail-scroll">
-                                <i onclick="pop_close();">
+                                <i>
                                     <span></span>
                                     <span></span>
                                 </i>
