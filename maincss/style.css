@@ -499,6 +499,7 @@ section .bar{margin: 0 auto 50px;width: 50px;border-top: 18px solid #de6f44;bord
 }
 .before-load .loading {
 	opacity: 1;
+    overflow: hidden;
 }
 @keyframes loading-spin {
 	100% { transform: rotate(360deg); }
